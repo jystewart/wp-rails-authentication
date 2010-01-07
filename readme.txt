@@ -44,6 +44,13 @@ sessions.
 
 Providing your blog server can access the database, you simply need an appropriate database.yml file.
 
+= Are there other approaches to this problem?
+
+Since this plugin was developed, the [Rails Integration API](http://wordpress.org/extend/plugins/rails-integration-api/) 
+plugin has been released. That requires you to add some API code to your rails app, but 
+may be easier if you want to keep all the encryption logic solely in rails or can't add an extra
+module to PHP.
+
 == Upgrade Notice ==
 
 This is the first version so I'm the only one who'll be doing any upgrading.

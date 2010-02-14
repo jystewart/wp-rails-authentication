@@ -83,7 +83,7 @@ if (! class_exists('WP_Rails_Authentication')) {
       } else {
         $opt = get_option('yaml_file');
         if (empty($opt)) {
-          die('yaml file location not defined');
+          wp_die('yaml file location not defined');
         }
         return $opt;
       }
